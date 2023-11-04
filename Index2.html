@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css">
+<head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        body{
+            width: 100%;
+            background-color: #42c2f5;
+        }
+        nav {
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            display: inline-flex;
+            justify-content: space-around;
+            padding: 1%;
+            position: fixed;
+        }
+        header{
+            border: 2px solid white;
+            height: 40px;
+            width: 40px;
+            font-size: 2rem;
+
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.5rem;
+
+        }
+
+
+        nav a:hover {
+            background-color: #555;
+        }
+        /* home section */
+        #home{
+            width: 100%;
+            height: 100vh;
+            background-image: url(./img1.jpg);
+            background-size: cover;
+        }
+        .hometext{
+            height: 100px;
+            width: 30%;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 2rem;
+        }
+        @media screen  and (max-width:565px){
+            .hometext{
+            height: 100px;
+            width: 30%;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 2rem;
+        }
+        }
+        .containerhome{
+            padding: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /* about section */
+        #about{
+            width: 100%;
+            height: 110vh;
+        }
+        .aboutcontainer{
+            margin-top: 10vhm;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .item1{
+            width: 40%;
+            height: 80vh;
+
+        }
+        .item1:first-child{
+            background-image: url(./IMG_2410.JPG);
+            background-size: cover;
+        }
+     
+        
+        .item:last-child{
+            text-align: justify;
+        }
+        .text3{
+            text-align: justify;
+        }
+        /* service section */
+        #services{
+            height: 100vh;
+            width: 100%;
+        }
+        .servicecontainer{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .item3{
+            margin-top: 30px;
+            width: 30%;
+            height: 50vh;
+        }
+ 
+        /* portfoilo section */
+        #portfolio{
+            height: 70vh;
+            width: 100%;
+        }
+        .portcontainer{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .item6{
+            width: 24%;
+            height: 60vh;
+            background-image: url(./imm.jpg);
+            background-size: cover;
+        }
+        /* Resume section */
+        #resume{
+            height: 100vh;
+            width: 100%;
+        }
+        .resumecontainer{
+            
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+        .item4{
+            margin-top: 30px;
+            height: 70vh;
+            width: 30%;
+        }
+        .item4:first-child{
+            background-image: url(./IMG_2410.JPG);
+            background-size: cover;
+        }
+        /* blog section */
+        #blog{
+            height: 50vh;
+            width: 100%;
+        }
+        .blogcontainer{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .item7{
+            margin-top: 50px;
+            width: 40%;
+            height: 40vh;
+        }
+        /* contact section */
+        #contact{
+            height: 60vh;
+            width: 100%;
+        }
+        .contactcontainer{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .item8{
+            width: 40%;
+            height: 20vh;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <header>IA</header>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#resume">Resume</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="home">
+        <div class="containerhome">
+            <div class="hometext"><h1>I'M ISMAILA AFEEZ <br>A Front end Developer</h1></div>
+        </div>
+    </section><hr>
+    <section id="about">
+        <div class="aboutcontainer">
+            <div class="item1"></div>
+            <div class="item1">
+                <h1 class="abouttext" style="color: rgb(0, 0, 0); text-align: center; font-size: 4rem; font-family: fantasy, sans-serif;">My Bio</h1>
+
+                <p class="text3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos in porro, veniam magni
+                    vitae est sapiente soluta obcaecati asperiores, aliquid deserunt a itaque. Ipsam eaque dignissimos
+                    optio odit nobis, modi quas similique totam voluptates. Quia enim amet in porro optio velit
+                    perspiciatis explicabo dignissimos consectetur quod soluta ipsam repellendus, fugit cupiditate ex
+                    assumenda quibusdam eum ipsum voluptas nam incidunt illo saepe odit labore. Asperiores, eum aliquam
+                    adipisci iure, ut reprehenderit atque vero ducimus eius ullam aut. Porro neque rerum consectetur a
+                    quis facere voluptas, laboriosam maxime fuga reiciendis amet quo voluptatem, animi maiores ratione
+                    velit quasi accusantium laudantium magnam natus sed. Repellat minima placeat fugiat debitis,
+                    reiciendis corrupti deserunt sunt iure maiores, officiis enim iste molestiae neque est nam
+                    voluptatem nulla fugit maxime possimus exercitationem. Ipsa autem reiciendis sit illum nesciunt quam
+                    dolor eaque saepe magni porro blanditiis maxime laboriosam repellendus, libero quasi odio voluptatum
+                    animi fuga sapiente esse accusamus!</p><br><br>
+                    <h1 class="skils" style="color: black; font-size: 4rem; text-align: center; font-family: fantasy;">My Skills</h1>
+                    <div class="skilsitem" style="font-size: 20px;">
+                        <li>DESIGN</li><br>
+                        <li>HTML5</li><br>
+                        <li>CSS3</li><br>
+                        <li>JAVASCRIPT</li><br>
+                        <li>BOOSTRAP</li><br>
+                    </div>
+                    <div class="skillsbutton" style="display: flex; justify-content: space-evenly;">
+                        <button class="btn" style="width: 120px; height: 60px; color: white; background-color: rgb(71, 116, 71); border-radius: 30px;">HIRE ME</button>
+                        <button class="btn" style="width: 120px; height: 60px; color: white; background-color: rgb(49, 79, 135); border-radius: 30px;">DOWNLOAD CV</button>
+                    </div>
+            </div>
+        </div>
+    </section><hr>
+   
+    <section id="services">
+        <h1 class="servicetext" style="font-size: 4rem; text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;">Services</h1>
+        <div class="servicecontainer">
+            <div class="item3">
+                <fieldset style="height: 50vh;">
+                    <i class="fa-solid fa-code" style="font-size: 4rem; align-items: center; " ></i><h1 class="servi" style="font-size: 2rem; font-family: Verdana, Geneva, Tahoma, sans-serif;">WEB DEVELOPMENT</h1><hr><br>
+                    <p style="text-align: justify; font-style: oblique;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident possimus ratione fuga itaque,
+                        animi minima voluptates aliquid voluptatem quod illo dolorem. Sit nisi iste porro!</p>
+                </fieldset>
+            </div>
+            <div class="item3">
+                <fieldset style="height: 50vh;">
+                    <i class="fa-solid fa-u" style="font-size: 4rem; align-items: center; " ></i><h1 class="servi" style="font-size: 2rem; font-family: Verdana, Geneva, Tahoma, sans-serif;">UI/UX DESIGN</h1><hr><br>
+                    <p style="text-align: justify; font-style: oblique;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident possimus ratione fuga itaque,
+                        animi minima voluptates aliquid voluptatem quod illo dolorem. Sit nisi iste porro!</p>
+                </fieldset>
+            </div>
+            <div class="item3">
+                <fieldset style="height: 50vh;">
+                    <i class="fa-solid fa-leaf" style="font-size: 4rem; align-items: center; " ></i><h1 class="servi" style="font-size: 2rem; font-family: Verdana, Geneva, Tahoma, sans-serif;">GRAPHICS AND DESIGN</h1><hr><br>
+                    <p style="text-align: justify; font-style: oblique;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident possimus ratione fuga itaque,
+                        animi minima voluptates aliquid voluptatem quod illo dolorem. Sit nisi iste porro!</p>
+                </fieldset>
+            </div>
+        </div>
+    </section><hr>
+    <section id="resume">
+        <h1 class="resumetext" style="font-size: 4rem; text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;">Resume</h1>
+        <div class="resumecontainer">
+            <div class="item4"></div>
+            <div class="item4">
+                <h1 class="wok" style="font-size: 2rem; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: center;">Work Experience</h1><br><br>
+                <h2 class="sen" style="font-size: 1rem; text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;" >Senior Front End Developer</h2><br>
+                <div class="fa" style="text-align: center; display: flex; gap: 15px;">
+                    <h5 class="fb" style="text-align: center; font-size: 15px; color: rgb(168, 161, 161);"><i class="fa-solid fa-chart-simple"></i>GIT, Inc.</h5>
+                    <h5 class="fb" style="text-align: center; font-size: 15px; color: rgb(168, 161, 161);"><i class="fa-solid fa-location-dot"></i>Nigeria</h5><br><br><br>
+                </div>
+                <div class="fa2" style="display: inline-flex;">
+                    <h2 class="sen" style="font-size: 1rem; text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;" >Junior Front End Developer</h2><br>
+                    <h5 class="fb" style="text-align: center; font-size: 20px; color: rgb(0, 0, 0);"><i class="fa-solid fa-chart-simple"></i>Facebook, Inc.</h5>
+                    <h5 class="fb" style="text-align: center; font-size: 15px; color: rgb(8, 7, 7);"><i class="fa-solid fa-location-dot"></i>Nigeria</h5><br><br><br><br><br>
+
+                </div><br><br><br><br><br><br><br><br>
+                <h2 class="sen" style="font-size: 1rem; text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;" >Junior Front End Developer</h2><br>
+                <h5 class="fb" style="text-align: center; font-size: 20px; color: rgb(0, 0, 0);"><i class="fa-solid fa-chart-simple"></i>Facebook, Inc.</h5>
+                <h5 class="fb" style="text-align: center; font-size: 15px; color: rgb(8, 7, 7);"><i class="fa-solid fa-location-dot"></i>Nigeria</h5><br><br><br><br><br>
+            </div>
+            <div class="five"><br><br><br><br><br><br><br><br><br>
+                <h4 class="fb" style="text-align: center; font-size: 45px; color: rgb(99, 181, 99); background-color: rgb(194, 200, 206); display: inline; padding: 4px; border-radius: 30px;"></i>Full time</h4><br><br>
+                <h4 class="fb" style="text-align: center; font-size: 15px; color: rgb(168, 161, 161);"><i class="fa-solid fa-calendar-days"></i>November 2023-Present.</h4>
+            </div>
+        </div>
+    </section><hr>
+    <section id="portfolio">
+        <h1 class="portfoliotext" style="font-size: 4rem; text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;">Portfolio</h1>
+        <div class="portcontainer">
+            <div class="item6"></div>
+            <div class="item6"></div>
+            <div class="item6"></div>
+            <div class="item6"></div>
+        </div>
+
+    </section><hr>
+    <section id="blog">
+        <div class="blogcontainer">
+            <h1 class="blog" style="font-size: 4rem; text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;">Blog</h1>
+            <div class="item7">
+                <h5 class="readd">June 28, 2020</h5>
+                <div class="front" style="display: flex; gap: 250px;">
+                    <div class="tet" style="font-size: 20px;">Front-end Developer Demands today</div>
+                    <div class="tet">2 MINS READ</div>
+                </div><hr><br><br><br>
+                <h5 class="readd">June 28, 2020</h5>
+                <div class="front" style="display: flex; gap: 250px;">
+                    <div class="tet" style="font-size: 20px;">I Used React JS</div>
+                    <div class="tet">2 MINS READ</div>
+                </div><hr><br><br><br>
+                <h5 class="readd">June 28, 2020</h5>
+                <div class="front" style="display: flex; gap: 250px;">
+                    <div class="tet" style="font-size: 20px;">Why Front-end Developer So Important</div>
+                    <div class="tet">2 MINS READ </div>
+                </div>
+            </div>
+        </div>
+    </section><hr>
+    <section id="contact">
+        <h1 class="conta" style="font-size: 4rem; text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;">Contact Me</h1>
+        <div class="contactcontainer">
+            <div class="item8">
+                <form>
+                    <label for="First Name" style="font-size: 2rem;">First Name: </label>
+                    <input type="text" style="height: 30px; width: 420px;"><br><br><br><br>
+                    <label for="Last Name" style="font-size: 2rem;">Last Name: </label>
+                    <input type="text" style="height: 30px; width: 420px;"><br><br><br><br>
+                    <label for="Email" style="font-size: 2rem;">Email Address: </label>
+                    <input type="text" style="height: 30px; width: 420px;"><br>
+                    <label for="Send Message" style="font-size: 2rem;">Send Message: </label>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Send message"></textarea><br><br><br>
+                    <button class="btn6" style="width: 160px;height: 60px; align-items: center; border-radius: 30px; ">Send Message</button>
+                </form>
+            </div>
+            <div class="item8"><br><br><br><br><br><br><br>
+                <h4 class="hg" style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 2rem;">
+                    Contact Info: 43 Raymouth Rd. Baltemoer, London 3910 <br><br>
+                    Phone: +234(80)-6735-6383
+                </h4>
+            </div>
+        </div>
+    </section>
+    <main style="height: 10vh; width: 100%; background-color: black; color: white; padding: 2%; text-align: center; margin-top: 100px;">
+       &copy;ISMAILA AFEEZ 2023
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </main>
+</body>
+</html>
